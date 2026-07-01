@@ -1,0 +1,19 @@
+# Environments
+.env
+.venv
+venv/
+ENV/
+env/
+
+# SQLite Databases
+*.db
+*.sqlite3
+bursar_os.db
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS Files
+.DS_Store
