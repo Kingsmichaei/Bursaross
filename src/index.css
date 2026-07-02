@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+	--school-primary: #2563EB;
+	--school-secondary: #1E40AF;
+	--school-accent: #FFFFFF;
+}
+
+html, body, #root {
+	min-height: 100%;
+}
+
+body {
+	background: var(--school-accent);
+	color: #111827;
+}
+
+.school-primary-bg {
+	background-color: var(--school-primary);
+}
+
+.school-secondary-bg {
+	background-color: var(--school-secondary);
+}
+
+.school-accent-bg {
+	background-color: var(--school-accent);
+}
+
+.school-primary-text {
+	color: var(--school-primary);
+}
+
+.school-secondary-text {
+	color: var(--school-secondary);
+}
+
+.school-accent-text {
+	color: var(--school-accent);
+}
+
+.school-primary-border {
+	border-color: var(--school-primary);
+}
+
+.school-secondary-border {
+	border-color: var(--school-secondary);
+}
+
+
+
